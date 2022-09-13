@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/EMICalculator"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="EMI Calculator"
+        android:textColor="#FC8387DA"
+        android:textSize="34sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_gradient"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/home"
+            android:layout_marginTop="10dp"
+
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="HOME LOAN"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gradient_old"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/gold"
+
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="GOLD LOAN"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                android:textStyle="bold"></TextView>
+
+            <!--                <ImageView-->
+
+            <!--                    android:layout_width="228dp"-->
+            <!--                    android:layout_height="184dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:background="@drawable/old"-->
+            <!--                    android:padding="5px" />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gradient_dev"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/vehicle"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="VEHICLE LOAN"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_gradient"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/electricdevices"
+            android:layout_marginTop="10dp"
+
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="ELECTRONIC DEVICES LOAN"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
